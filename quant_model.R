@@ -47,6 +47,7 @@ changeColNames <- function(Data)
   return(Data)
 }
 
+# hello world
 stock_data <- lapply(stock_data, changeColNames) 
 
 # Retrieving the adjusted price column
